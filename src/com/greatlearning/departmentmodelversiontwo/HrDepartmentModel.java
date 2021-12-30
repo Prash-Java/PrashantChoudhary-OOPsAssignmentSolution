@@ -12,7 +12,7 @@ public class HrDepartmentModel extends SuperDepartmentModel {
 		super(departmentName, getTodaysWork, getWorkDeadline, isTodayAHoliday);
 	}
 
-	//Setter & Getter Methods
+	//Setter & Getter Methods with usage of super keyword for using parent class data members,methods
 	public String getDoActivity() {
 		return doActivity;
 	}

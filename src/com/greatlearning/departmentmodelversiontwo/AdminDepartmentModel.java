@@ -10,7 +10,7 @@ public class AdminDepartmentModel extends SuperDepartmentModel {
 		super(departmentName, getTodaysWork, getWorkDeadline, isTodayAHoliday);
 	}
 
-	//Setter & Getter Methods
+	//Setter & Getter Methods using super keyword to manipulate parent class data variables and/or methods
 	public String getDepartmentName() {
 		return super.getDepartmentName();
 	}

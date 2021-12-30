@@ -43,31 +43,34 @@ public class Driver {
 		System.out.println("\n\n");
 	}
 
-	//Below constitutes Is Another One Using Method Overloading for displaying properties of respective child classes Without Using Parent Classes or Upcasting
-	//	public static void displayProperties(AdminDepartment adminDepartment) {
-	//		System.out.println("Welcome To " + adminDepartment.departmentName());
-	//		System.out.println(adminDepartment.getTodaysWork());
-	//		System.out.println(adminDepartment.getWorkDeadline());
-	//		System.out.println(adminDepartment.isTodayAHoliday());
-	//		System.out.println("\n\n");
-	//	}
-	//	
-	//	public static void displayProperties(HrDepartment hrDepartment) {
-	//		System.out.println("Welcome To " + hrDepartment.departmentName());
-	//		System.out.println(hrDepartment.doActivity());
-	//		System.out.println(hrDepartment.getTodaysWork());
-	//		System.out.println(hrDepartment.getWorkDeadline());
-	//		System.out.println(hrDepartment.isTodayAHoliday());
-	//		System.out.println("\n\n");
-	//	}
-	//	
-	//	public static void displayProperties(TechDepartment techDepartment) {
-	//		System.out.println("Welcome To " + techDepartment.departmentName());
-	//		System.out.println(techDepartment.getTodaysWork());
-	//		System.out.println(techDepartment.getWorkDeadline());
-	//		System.out.println(techDepartment.getTechStackInformation());
-	//		System.out.println(techDepartment.isTodayAHoliday());
-	//		System.out.println("\n\n");
-	//	}
-
+	/*Below constitutes Another Way Using Method Overloading for displaying properties of respective child classes Without Using Parent Classes
+	 *  or Upcasting, this is commented but can be used as well, which is already presented in version 1 of solution
+	 */
+	/*
+		public static void displayProperties(AdminDepartment adminDepartment) {
+			System.out.println("Welcome To " + adminDepartment.departmentName());
+			System.out.println(adminDepartment.getTodaysWork());
+			System.out.println(adminDepartment.getWorkDeadline());
+			System.out.println(adminDepartment.isTodayAHoliday());
+			System.out.println("\n\n");
+		}
+		
+		public static void displayProperties(HrDepartment hrDepartment) {
+			System.out.println("Welcome To " + hrDepartment.departmentName());
+			System.out.println(hrDepartment.doActivity());
+			System.out.println(hrDepartment.getTodaysWork());
+			System.out.println(hrDepartment.getWorkDeadline());
+			System.out.println(hrDepartment.isTodayAHoliday());
+			System.out.println("\n\n");
+		}
+		
+		public static void displayProperties(TechDepartment techDepartment) {
+			System.out.println("Welcome To " + techDepartment.departmentName());
+			System.out.println(techDepartment.getTodaysWork());
+			System.out.println(techDepartment.getWorkDeadline());
+			System.out.println(techDepartment.getTechStackInformation());
+			System.out.println(techDepartment.isTodayAHoliday());
+			System.out.println("\n\n");
+		}
+*/
 }
